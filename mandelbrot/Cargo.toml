@@ -1,0 +1,15 @@
+[package]
+name = "prime-energy"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mandelbrot_sequential"
+path = "src/mandelbrot_sequential.rs"
+
+[[bin]]
+name = "mandelbrot_parallel"
+path = "src/mandelbrot_parallel.rs"
+
+[dependencies]
+rayon = "1.10"
